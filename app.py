@@ -28,8 +28,8 @@ with st.sidebar:
     """)
     st.image("https://www.streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png", width=150)
 
-st.title("⚖️ Audit Data Extractor")
-st.subheader("Automasi Data untuk Audit Confirmation Letter")
+st.title("⚖️ Project Name")
+st.subheader("Subheader")
 
 # 1. Kotak Drag & Drop (Uploader)
 uploaded_files = st.file_uploader("Upload atau Drop PDF Kontrak di sini", type="pdf", accept_multiple_files=True)
@@ -107,4 +107,5 @@ if uploaded_files:
         mime="application/vnd.ms-excel"
     )
 else:
+
     st.warning("Silakan unggah file PDF untuk memulai.")
