@@ -26,7 +26,6 @@ with st.sidebar:
     3. Periksa data di tabel preview.
     4. Klik 'Download' untuk hasil Excel.
     """)
-    st.image("https://www.streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png", width=150)
 
 st.title("⚖️ Project Name")
 st.subheader("Subheader")
@@ -109,3 +108,4 @@ if uploaded_files:
 else:
 
     st.warning("Silakan unggah file PDF untuk memulai.")
+
